@@ -1,7 +1,9 @@
 ;Document Here
 ;Eugene Boado
 (ns constantia.core
-  (:gen-class))
+  (:gen-class)
+  (:use server.socket))
+(import '[java.io BufferedReader InputStreamReader OutputStreamWriter])
 
 (defn WriteToConsole             
   [message]
