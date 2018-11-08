@@ -1,6 +1,6 @@
 # constantia
 
-FIXME: description
+Clojure Client/Server REPL Base
 
 ## Installation
 
