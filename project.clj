@@ -8,4 +8,6 @@
   :dev-dependencies [[speclj "2.1.1"]]
   :main ^:skip-aot constantia.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}}
+  :plugins [[lein-cljfmt "0.5.6"]]
+  )
