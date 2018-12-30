@@ -80,7 +80,7 @@
       (catch Exception e
         (WriteToConsole (str "ERROR " (.getMessage e) "\n"))) ; catch
       (finally
-        (WritelnToConsole "Release some resource"))) ; try
+        (WritelnToConsole "Client Exit"))) ; try
 ) ; while
 ) ; defn run
 
