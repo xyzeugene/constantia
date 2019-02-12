@@ -1,5 +1,5 @@
-;Connect to server by:
-;telnet localhost 8080
+;Connect to the server by:
+;telnet localhost 8080 
 ;Eugene Boado
 (ns constantia.core
   (:gen-class)
